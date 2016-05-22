@@ -7,6 +7,25 @@ body {
 	width: 50%;
 	margin: 0 auto;
 }
+.narrow-layout__title {}
+.narrow-layout__text {}
+.narrow-layout__list {}
+.narrow-layout__item {}
+.narrow-layout__link {
+	color: #ed5c23;
+	-webkit-transition: opacity .3s;
+	-o-transition: opacity .3s;
+	transition: opacity .3s;
+}
+.narrow-layout__link:hover {
+	opacity: .7;
+}
+.narrow-layout__link:active {
+	opacity: 1;
+	-webkit-transition: none;
+	-o-transition: none;
+	transition: none;
+}
 h1 {
 	font-weight: 300;
 }
@@ -30,6 +49,9 @@ h1 {
 }
 .layout__text {
 	padding-right: 20px;
+}
+.layout__text .layout__link {
+	line-height: 1;
 }
 .layout__link {
 	color: #ed5c23;
