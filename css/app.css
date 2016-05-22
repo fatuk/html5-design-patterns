@@ -1,0 +1,60 @@
+body {
+	font-family: 'Philosopher', sans-serif;
+	background: #1d1f20;
+	color: #fff;
+}
+.narrow-layout {
+	width: 50%;
+	margin: 0 auto;
+}
+h1 {
+	font-weight: 300;
+}
+* {
+	box-sizing: border-box;
+}
+.layout {
+	padding: 20px;
+}
+.layout__aside {
+	width: 30%;
+	float: left;
+}
+.layout__content {
+	width: 70%;
+	float: left;
+}
+.layout__title {
+	font-weight: 300;
+	padding-right: 100px;
+}
+.layout__text {
+	padding-right: 20px;
+}
+.layout__link {
+	color: #ed5c23;
+	font-size: 16px;
+	line-height: 37px;
+	vertical-align: middle;
+	text-decoration: none;
+}
+.layout__link_back {
+	position: absolute;
+	top: 40px;
+	right: 30px;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+
+@media (max-width: 960px) {
+	.layout__aside {
+		width: 100%;
+	}
+	.layout__content {
+		width: 100%;
+	}
+}
