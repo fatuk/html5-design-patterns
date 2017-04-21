@@ -1,6 +1,8 @@
 # html5-design-patterns
 Паттерны верстки
 
+[English version](https://fatuk.github.io/html5-design-patterns/en)
+
 ## Оглавление:
 
 * [Предисловие](pages/preface.md)
