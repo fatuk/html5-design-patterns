@@ -3,6 +3,9 @@ body {
 	background: #1d1f20;
 	color: #fff;
 }
+a {
+	color: #ed5c23;
+}
 .narrow-layout {
 	width: 50%;
 	margin: 0 auto;
